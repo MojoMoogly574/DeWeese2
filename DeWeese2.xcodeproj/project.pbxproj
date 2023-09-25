@@ -14,6 +14,16 @@
 		122EF6582ABF74DF007F708A /* DeWeese2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122EF6572ABF74DF007F708A /* DeWeese2Tests.swift */; };
 		122EF6622ABF74DF007F708A /* DeWeese2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122EF6612ABF74DF007F708A /* DeWeese2UITests.swift */; };
 		122EF6642ABF74DF007F708A /* DeWeese2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122EF6632ABF74DF007F708A /* DeWeese2UITestsLaunchTests.swift */; };
+		12531F3A2AC209D3004EF741 /* DailyWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12531F392AC209D3004EF741 /* DailyWorkout.swift */; };
+		12531F3D2AC20A47004EF741 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 12531F3C2AC20A47004EF741 /* Realm */; };
+		12531F3F2AC20A47004EF741 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 12531F3E2AC20A47004EF741 /* RealmSwift */; };
+		12531F412AC20D73004EF741 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12531F402AC20D73004EF741 /* HistoryModel.swift */; };
+		12531F432AC20E92004EF741 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12531F422AC20E92004EF741 /* Color+Codable.swift */; };
+		12531F452AC22991004EF741 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12531F442AC22991004EF741 /* HapticManager.swift */; };
+		125C24B42AC24429001F60BF /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24B32AC24429001F60BF /* ThemePicker.swift */; };
+		125C24B62AC24478001F60BF /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24B52AC24478001F60BF /* Theme.swift */; };
+		125C24B82AC2464A001F60BF /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24B72AC2464A001F60BF /* ErrorWrapper.swift */; };
+		125C24BA2AC24681001F60BF /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24B92AC24681001F60BF /* ThemeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +55,14 @@
 		122EF65D2ABF74DF007F708A /* DeWeese2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeWeese2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		122EF6612ABF74DF007F708A /* DeWeese2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeWeese2UITests.swift; sourceTree = "<group>"; };
 		122EF6632ABF74DF007F708A /* DeWeese2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeWeese2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		12531F392AC209D3004EF741 /* DailyWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWorkout.swift; sourceTree = "<group>"; };
+		12531F402AC20D73004EF741 /* HistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		12531F422AC20E92004EF741 /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
+		12531F442AC22991004EF741 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		125C24B32AC24429001F60BF /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		125C24B52AC24478001F60BF /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		125C24B72AC2464A001F60BF /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		125C24B92AC24681001F60BF /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12531F3F2AC20A47004EF741 /* RealmSwift in Frameworks */,
+				12531F3D2AC20A47004EF741 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +115,9 @@
 		122EF6442ABF74DD007F708A /* DeWeese2 */ = {
 			isa = PBXGroup;
 			children = (
+				12531F382AC209B6004EF741 /* Support */,
+				12531F372AC209AF004EF741 /* Models */,
+				12531F362AC209A4004EF741 /* Views */,
 				122EF6452ABF74DD007F708A /* DeWeese2App.swift */,
 				122EF6472ABF74DD007F708A /* ContentView.swift */,
 				122EF6492ABF74DF007F708A /* Assets.xcassets */,
@@ -129,6 +152,35 @@
 			path = DeWeese2UITests;
 			sourceTree = "<group>";
 		};
+		12531F362AC209A4004EF741 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				125C24B32AC24429001F60BF /* ThemePicker.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		12531F372AC209AF004EF741 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12531F392AC209D3004EF741 /* DailyWorkout.swift */,
+				12531F402AC20D73004EF741 /* HistoryModel.swift */,
+				12531F422AC20E92004EF741 /* Color+Codable.swift */,
+				125C24B52AC24478001F60BF /* Theme.swift */,
+				125C24B72AC2464A001F60BF /* ErrorWrapper.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		12531F382AC209B6004EF741 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				12531F442AC22991004EF741 /* HapticManager.swift */,
+				125C24B92AC24681001F60BF /* ThemeView.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +197,10 @@
 			dependencies = (
 			);
 			name = DeWeese2;
+			packageProductDependencies = (
+				12531F3C2AC20A47004EF741 /* Realm */,
+				12531F3E2AC20A47004EF741 /* RealmSwift */,
+			);
 			productName = DeWeese2;
 			productReference = 122EF6422ABF74DD007F708A /* DeWeese2.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +273,9 @@
 				Base,
 			);
 			mainGroup = 122EF6392ABF74DD007F708A;
+			packageReferences = (
+				12531F3B2AC20A47004EF741 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 122EF6432ABF74DD007F708A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,7 +318,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12531F412AC20D73004EF741 /* HistoryModel.swift in Sources */,
+				125C24B62AC24478001F60BF /* Theme.swift in Sources */,
 				122EF6482ABF74DD007F708A /* ContentView.swift in Sources */,
+				125C24B82AC2464A001F60BF /* ErrorWrapper.swift in Sources */,
+				125C24B42AC24429001F60BF /* ThemePicker.swift in Sources */,
+				12531F3A2AC209D3004EF741 /* DailyWorkout.swift in Sources */,
+				12531F432AC20E92004EF741 /* Color+Codable.swift in Sources */,
+				12531F452AC22991004EF741 /* HapticManager.swift in Sources */,
+				125C24BA2AC24681001F60BF /* ThemeView.swift in Sources */,
 				122EF6462ABF74DD007F708A /* DeWeese2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -617,6 +684,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		12531F3B2AC20A47004EF741 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		12531F3C2AC20A47004EF741 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12531F3B2AC20A47004EF741 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		12531F3E2AC20A47004EF741 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12531F3B2AC20A47004EF741 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 122EF63A2ABF74DD007F708A /* Project object */;
 }
