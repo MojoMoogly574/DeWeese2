@@ -20,10 +20,13 @@
 		12531F412AC20D73004EF741 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12531F402AC20D73004EF741 /* HistoryModel.swift */; };
 		12531F432AC20E92004EF741 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12531F422AC20E92004EF741 /* Color+Codable.swift */; };
 		12531F452AC22991004EF741 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12531F442AC22991004EF741 /* HapticManager.swift */; };
-		125C24B42AC24429001F60BF /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24B32AC24429001F60BF /* ThemePicker.swift */; };
 		125C24B62AC24478001F60BF /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24B52AC24478001F60BF /* Theme.swift */; };
 		125C24B82AC2464A001F60BF /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24B72AC2464A001F60BF /* ErrorWrapper.swift */; };
 		125C24BA2AC24681001F60BF /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24B92AC24681001F60BF /* ThemeView.swift */; };
+		125C24BC2AC248D0001F60BF /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24BB2AC248D0001F60BF /* ErrorView.swift */; };
+		125C24BE2AC24980001F60BF /* WorkoutEditScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24BD2AC24980001F60BF /* WorkoutEditScreen.swift */; };
+		125C24C02AC33525001F60BF /* WorkoutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24BF2AC33525001F60BF /* WorkoutScreen.swift */; };
+		125C24C22AC3367A001F60BF /* WorkoutsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24C12AC3367A001F60BF /* WorkoutsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,10 +62,13 @@
 		12531F402AC20D73004EF741 /* HistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
 		12531F422AC20E92004EF741 /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		12531F442AC22991004EF741 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
-		125C24B32AC24429001F60BF /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		125C24B52AC24478001F60BF /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		125C24B72AC2464A001F60BF /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		125C24B92AC24681001F60BF /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		125C24BB2AC248D0001F60BF /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		125C24BD2AC24980001F60BF /* WorkoutEditScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutEditScreen.swift; sourceTree = "<group>"; };
+		125C24BF2AC33525001F60BF /* WorkoutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutScreen.swift; sourceTree = "<group>"; };
+		125C24C12AC3367A001F60BF /* WorkoutsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +161,10 @@
 		12531F362AC209A4004EF741 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				125C24B32AC24429001F60BF /* ThemePicker.swift */,
+				125C24BB2AC248D0001F60BF /* ErrorView.swift */,
+				125C24BD2AC24980001F60BF /* WorkoutEditScreen.swift */,
+				125C24BF2AC33525001F60BF /* WorkoutScreen.swift */,
+				125C24C12AC3367A001F60BF /* WorkoutsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -320,14 +329,17 @@
 			files = (
 				12531F412AC20D73004EF741 /* HistoryModel.swift in Sources */,
 				125C24B62AC24478001F60BF /* Theme.swift in Sources */,
+				125C24C22AC3367A001F60BF /* WorkoutsListView.swift in Sources */,
 				122EF6482ABF74DD007F708A /* ContentView.swift in Sources */,
+				125C24BE2AC24980001F60BF /* WorkoutEditScreen.swift in Sources */,
 				125C24B82AC2464A001F60BF /* ErrorWrapper.swift in Sources */,
-				125C24B42AC24429001F60BF /* ThemePicker.swift in Sources */,
+				125C24C02AC33525001F60BF /* WorkoutScreen.swift in Sources */,
 				12531F3A2AC209D3004EF741 /* DailyWorkout.swift in Sources */,
 				12531F432AC20E92004EF741 /* Color+Codable.swift in Sources */,
 				12531F452AC22991004EF741 /* HapticManager.swift in Sources */,
 				125C24BA2AC24681001F60BF /* ThemeView.swift in Sources */,
 				122EF6462ABF74DD007F708A /* DeWeese2App.swift in Sources */,
+				125C24BC2AC248D0001F60BF /* ErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

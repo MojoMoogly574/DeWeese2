@@ -43,17 +43,21 @@ extension DailyWorkout {
 
 extension DailyWorkout {
     struct Data {
-        var title: String = ""
-        var exercises: [String] = []
-        var color: Color = .random
+        var workoutTitle: String = ""
+        var workoutDescription: String = ""
+        var workoutType: String = ""
+        var exercises:[String] = []
+        var color: Color = .golf
     }
 
     var data: Data {
-        return Data(title: workoutTitle, exercises: exercises, color: color)
+        return Data(workoutTitle: workoutTitle, workoutDescription: workoutDescription, workoutType: workoutType, exercises: exercises, color: .hockey)
     }
     
     func update(from data: Data) {
-        workoutTitle = data.title
+        workoutTitle = data.workoutTitle
+        workoutDescription = data.workoutDescription
+        workoutType = data.workoutType
         for exercise in data.exercises {
             if !exercises.contains(exercise) {
                 self.exerciseList.append(exercise)
