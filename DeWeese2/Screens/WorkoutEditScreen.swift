@@ -13,7 +13,7 @@ struct WorkoutEditScreen: View {
     @Environment(\.presentationMode) var presentationMode
     @State private var newExercise = ""
     @State var width = UIScreen.main.bounds.width
-    //MARK:  WORKOUT TYPES COLORIZATION
+    //MARK:  WORKOUT TYPES 
     let types = ["Strength", "Power", "Cardio", "HIIT", "Recover", "Yoga","Sport", "Run", "Walk", "Grappling", "Boxing", "MMA", "Golf", "Stretch", "Swim"]
      
     var body: some View {

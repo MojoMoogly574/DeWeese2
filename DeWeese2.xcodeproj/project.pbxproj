@@ -26,7 +26,14 @@
 		125C24BC2AC248D0001F60BF /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24BB2AC248D0001F60BF /* ErrorView.swift */; };
 		125C24BE2AC24980001F60BF /* WorkoutEditScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24BD2AC24980001F60BF /* WorkoutEditScreen.swift */; };
 		125C24C02AC33525001F60BF /* WorkoutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24BF2AC33525001F60BF /* WorkoutScreen.swift */; };
-		125C24C22AC3367A001F60BF /* WorkoutsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24C12AC3367A001F60BF /* WorkoutsListView.swift */; };
+		125C24C22AC3367A001F60BF /* WorkoutsListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24C12AC3367A001F60BF /* WorkoutsListScreen.swift */; };
+		125C24C42AC36D79001F60BF /* WorkoutCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24C32AC36D79001F60BF /* WorkoutCardView.swift */; };
+		125C24C62AC36E16001F60BF /* ScrollViewDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24C52AC36E16001F60BF /* ScrollViewDetector.swift */; };
+		125C24C82AC36ED2001F60BF /* EllipsisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24C72AC36ED2001F60BF /* EllipsisView.swift */; };
+		125C24CC2AC37147001F60BF /* MenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24CB2AC37147001F60BF /* MenuButtonView.swift */; };
+		125C24CE2AC491BC001F60BF /* WorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24CD2AC491BC001F60BF /* WorkoutDetailView.swift */; };
+		125C24D02AC498F2001F60BF /* WorkoutListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24CF2AC498F2001F60BF /* WorkoutListHeaderView.swift */; };
+		125C24D32AC4E31E001F60BF /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C24D22AC4E31E001F60BF /* CustomCorners.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +75,14 @@
 		125C24BB2AC248D0001F60BF /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		125C24BD2AC24980001F60BF /* WorkoutEditScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutEditScreen.swift; sourceTree = "<group>"; };
 		125C24BF2AC33525001F60BF /* WorkoutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutScreen.swift; sourceTree = "<group>"; };
-		125C24C12AC3367A001F60BF /* WorkoutsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsListView.swift; sourceTree = "<group>"; };
+		125C24C12AC3367A001F60BF /* WorkoutsListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsListScreen.swift; sourceTree = "<group>"; };
+		125C24C32AC36D79001F60BF /* WorkoutCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCardView.swift; sourceTree = "<group>"; };
+		125C24C52AC36E16001F60BF /* ScrollViewDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewDetector.swift; sourceTree = "<group>"; };
+		125C24C72AC36ED2001F60BF /* EllipsisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipsisView.swift; sourceTree = "<group>"; };
+		125C24CB2AC37147001F60BF /* MenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonView.swift; sourceTree = "<group>"; };
+		125C24CD2AC491BC001F60BF /* WorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailView.swift; sourceTree = "<group>"; };
+		125C24CF2AC498F2001F60BF /* WorkoutListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListHeaderView.swift; sourceTree = "<group>"; };
+		125C24D22AC4E31E001F60BF /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +137,7 @@
 			children = (
 				12531F382AC209B6004EF741 /* Support */,
 				12531F372AC209AF004EF741 /* Models */,
+				125C24D12AC49A8E001F60BF /* Screens */,
 				12531F362AC209A4004EF741 /* Views */,
 				122EF6452ABF74DD007F708A /* DeWeese2App.swift */,
 				122EF6472ABF74DD007F708A /* ContentView.swift */,
@@ -162,9 +177,12 @@
 			isa = PBXGroup;
 			children = (
 				125C24BB2AC248D0001F60BF /* ErrorView.swift */,
-				125C24BD2AC24980001F60BF /* WorkoutEditScreen.swift */,
-				125C24BF2AC33525001F60BF /* WorkoutScreen.swift */,
-				125C24C12AC3367A001F60BF /* WorkoutsListView.swift */,
+				125C24C32AC36D79001F60BF /* WorkoutCardView.swift */,
+				125C24C72AC36ED2001F60BF /* EllipsisView.swift */,
+				125C24CB2AC37147001F60BF /* MenuButtonView.swift */,
+				125C24CD2AC491BC001F60BF /* WorkoutDetailView.swift */,
+				125C24CF2AC498F2001F60BF /* WorkoutListHeaderView.swift */,
+				125C24D22AC4E31E001F60BF /* CustomCorners.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +195,7 @@
 				12531F422AC20E92004EF741 /* Color+Codable.swift */,
 				125C24B52AC24478001F60BF /* Theme.swift */,
 				125C24B72AC2464A001F60BF /* ErrorWrapper.swift */,
+				125C24C52AC36E16001F60BF /* ScrollViewDetector.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -188,6 +207,16 @@
 				125C24B92AC24681001F60BF /* ThemeView.swift */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		125C24D12AC49A8E001F60BF /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				125C24C12AC3367A001F60BF /* WorkoutsListScreen.swift */,
+				125C24BD2AC24980001F60BF /* WorkoutEditScreen.swift */,
+				125C24BF2AC33525001F60BF /* WorkoutScreen.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,12 +356,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				125C24C82AC36ED2001F60BF /* EllipsisView.swift in Sources */,
+				125C24C62AC36E16001F60BF /* ScrollViewDetector.swift in Sources */,
+				125C24C42AC36D79001F60BF /* WorkoutCardView.swift in Sources */,
 				12531F412AC20D73004EF741 /* HistoryModel.swift in Sources */,
 				125C24B62AC24478001F60BF /* Theme.swift in Sources */,
-				125C24C22AC3367A001F60BF /* WorkoutsListView.swift in Sources */,
+				125C24C22AC3367A001F60BF /* WorkoutsListScreen.swift in Sources */,
 				122EF6482ABF74DD007F708A /* ContentView.swift in Sources */,
 				125C24BE2AC24980001F60BF /* WorkoutEditScreen.swift in Sources */,
 				125C24B82AC2464A001F60BF /* ErrorWrapper.swift in Sources */,
+				125C24D32AC4E31E001F60BF /* CustomCorners.swift in Sources */,
+				125C24CC2AC37147001F60BF /* MenuButtonView.swift in Sources */,
+				125C24CE2AC491BC001F60BF /* WorkoutDetailView.swift in Sources */,
+				125C24D02AC498F2001F60BF /* WorkoutListHeaderView.swift in Sources */,
 				125C24C02AC33525001F60BF /* WorkoutScreen.swift in Sources */,
 				12531F3A2AC209D3004EF741 /* DailyWorkout.swift in Sources */,
 				12531F432AC20E92004EF741 /* Color+Codable.swift in Sources */,

@@ -27,8 +27,8 @@ enum Theme: String, CaseIterable, Identifiable, Codable {
     var accentColor: Color {
         // returns .black or .white depending on the color of self
         switch self {
-        case .BackPack, .Cardio, .Grapple,.HIIT, .Sport, .Recover,.Golf, .Hockey, .Power, .Run, .Strength, .Stretch, .Walk, .Yoga: return .white
-        case .PickleBall: return .black
+        case .BackPack, .Cardio, .Grapple,.HIIT, .Sport,.Golf, .Hockey, .Power, .Run, .Strength, .Stretch, .Walk, .Yoga: return .white
+        case .Recover,.PickleBall: return .black
         
         }
     }
